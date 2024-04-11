@@ -1,4 +1,5 @@
 Terraform Module to provision an AWS EC2 instance with the latest amazon linux 2023 ami and installed docker in it.
+Also it's installed Terraform.
 
 Not intended for production use. It is an example module.
 
@@ -16,4 +17,4 @@ module "docker_instance" {
     source = "plnknr/docker-terra-instance/aws"
     key_name = "clarusway"
 }
-```
+``` 
