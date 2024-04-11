@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "plnknr/docker-terraform-instance/aws"
+    source = "plnknr/docker-terra-instance/aws"
     key_name = "clarusway"
 }
-``` 
+```
